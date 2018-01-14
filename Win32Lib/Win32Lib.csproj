@@ -60,9 +60,15 @@
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Drawing\DrawingUtils.cs" />
+    <Compile Include="Drawing\GDI.cs" />
+    <Compile Include="Drawing\MultiWindowUxThemeManager.cs" />
+    <Compile Include="Drawing\ThemeRoutines.cs" />
+    <Compile Include="Drawing\UxThemeManager.cs" />
     <Compile Include="Win32.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Win32Enums.cs" />

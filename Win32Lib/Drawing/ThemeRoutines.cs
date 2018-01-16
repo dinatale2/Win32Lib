@@ -25,6 +25,46 @@ namespace Drawing.ThemeRoutines
         Sine,
     }
 
+    public enum WindowParts : int
+    {
+        Caption = 1,
+        SmallCaption = 2,
+        MinCaption = 3,
+        SmallMinCaption = 4,
+        MaxCaption = 5,
+        SmallMaxCaption = 6,
+        FrameLeft = 7,
+        FrameRight = 8,
+        FrameBottom = 9,
+        SmallFrameLeft = 10,
+        SmallFrameRight = 11,
+        SmallFrameBottom = 12,
+        SysButton = 13,
+        MdiSysButton = 14,
+        MinButton = 15,
+        MdiMinButton = 16,
+        MaxButton = 17,
+        CloseButton = 18,
+        SmallCloseButton = 19,
+        MdiCloseButton = 20,
+        RestoreButton = 21,
+        MdiRestoreButton = 22,
+        HelpButton = 23,
+        MdiHelpButton = 24,
+        HorzScroll = 25,
+        HorzThumb = 26,
+        VertScroll = 27,
+        VertThumb = 28,
+        Dialog = 29,
+        CaptionSizingTemplate = 30,
+        SmallCaptionSizingTemplate = 31,
+        FrameLeftSizingTemplate = 32,
+        SmallFrameLeftSizingTemplate = 33,
+        FrameRightSizingTemplate = 34,
+        SmallFrameRightSizingTemplate = 35,
+        FrameBottomSizingTemplate = 36,
+        SmallFrameBottomSizingTemplate = 37,
+    };
 
     /// <summary>
     /// Parts available for ToolTip.
@@ -273,6 +313,26 @@ namespace Drawing.ThemeRoutines
         /// CP_CUEBANNER
         /// </summary>
         Cuebanner = 8
+    };
+
+    public enum CloseButtonState : int
+    {
+        /// <summary>
+        /// The close button is disabled
+        /// </summary>
+        Disabled = 4,
+        /// <summary>
+        /// The close button is pressed.
+        /// </summary>
+        Pressed = 3,
+        /// <summary>
+        /// The close button is hot.
+        /// </summary>
+        Hot = 2,
+        /// <summary>
+        /// The close button has the default appearance.
+        /// </summary>
+        Normal = 1
     };
 
     public enum ComboBoxState : int
